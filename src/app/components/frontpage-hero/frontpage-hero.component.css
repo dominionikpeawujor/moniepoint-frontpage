@@ -1,24 +1,58 @@
+* {
+    color: white;
+}
+
 .hero {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 60vh;
-    background-color: rgba(0,0,0,0.5);
-    padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 10rem;
 }
 
 .hero-badge {
-    margin-bottom: 10px;
-    background-color: antiquewhite;
-    margin-right: 70%;
+  margin-bottom: 10px;
+  /* background-color: antiquewhite; */
+  margin-right: 70%;
+}
 
+.hero-badge-text {
+    color: var(--hero-button);
+    font-weight: 600;
+    font-family: var(--header-font);
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 40px;
 }
 
 .hero-badge-img {
-    margin-right: 70%;
+  margin-right: 70%;
 }
 
+.div-hero-header {
+  margin: 10px 0;
+}
+
+.hero-header {
+  font-size: 3rem;
+}
+
+.div-hero-paragraph {
+  margin: 20px 0;
+}
+
+.hero-paragraph {
+    font-size: 1.3rem;
+    font-family: "inter";
+    
+}
 .hero-btn {
-    margin-top: 10px;
-    margin-right: 70%;
+  margin-top: 25px;
+  margin-right: 80%;
+  padding: 20px 0;
+  background-color: var(--hero-button);
+  border: 0;
+  font-weight: 600;
+  border-radius: 8px;
 }

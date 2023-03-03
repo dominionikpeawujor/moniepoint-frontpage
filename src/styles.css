@@ -10,5 +10,7 @@
 :root {
     --header-font : "Hanken Grotesk", sans-serif;
     --paragraph-font : "Inter", sans-serif;
+    --hero-button: #0361f0;
+    --white: #ffffff
     
 }
