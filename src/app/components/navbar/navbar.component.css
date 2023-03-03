@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 2.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+li:hover {
+  color: blue;
+}
