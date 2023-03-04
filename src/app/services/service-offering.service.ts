@@ -9,5 +9,10 @@ import { ServiceCard } from '../models/service-offering-card';
 export class ServiceOfferingService {
   private _jsonURL = 'assets/data.json';
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+
+  public getData(): Observable<ServiceCard[]> {
+    return this.http.get<ServiceCard[]>(this._jsonURL)
+  }
 }

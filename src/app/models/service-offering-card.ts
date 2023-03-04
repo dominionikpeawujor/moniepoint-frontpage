@@ -1,17 +1,13 @@
 export class ServiceCard {
   id: string;
-  name: string;
-  price: number;
+  service: string;
   url: string;
   description: string;
-  quantity: number;
 
   constructor() {
     this.id = '1';
-    this.name = '';
-    this.price = 0;
+    this.service = '';
     this.url = '';
     this.description = '';
-    this.quantity = 0;
   }
 }
