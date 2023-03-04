@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "service": "Payments",
+    "url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "description": "We build infrastructure and distribution networks that democratise payment acceptance, and provide merchants with payment solutions to power their businesses."
+  },
+  {
+    "id": 2,
+    "service": "Credit",
+    "url": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "description": "We provide loans to business owners to help them finance additional inventory purchases and expand their businesses."
+  },
+  {
+    "id": 3,
+    "service": "Business Management",
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "description": "We provide operational tools like expense cards, accounting and book-keeping solutions for businesses to run seamlessly."
+  },
+  {
+    "id": 4,
+    "service": "Banking",
+    "url": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "description": "Our banking solution allows businesses to perform instant transactions, save, and invest at their own pace."
+  }
+]
