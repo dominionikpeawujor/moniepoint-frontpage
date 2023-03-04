@@ -15,6 +15,7 @@ import { JoinUsCtoComponent } from './components/join-us-cto/join-us-cto.compone
 import { MainpageFooterComponent } from './components/mainpage-footer/mainpage-footer.component';
 import { ServiceOfferingComponent } from './components/service-offering/service-offering.component';
 import { FrontpageComponent } from './components/frontpage/frontpage.component';
+import { ServiceOfferingCardComponent } from './components/service-offering-card/service-offering-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FrontpageComponent } from './components/frontpage/frontpage.component';
     JoinUsCtoComponent,
     MainpageFooterComponent,
     ServiceOfferingComponent,
-    FrontpageComponent
+    FrontpageComponent,
+    ServiceOfferingCardComponent
   ],
   imports: [
     BrowserModule,
