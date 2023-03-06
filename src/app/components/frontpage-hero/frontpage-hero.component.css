@@ -1,30 +1,36 @@
 * {
-    color: white;
+  color: white;
 }
 
 .hero {
+  height: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 75vh;
+  /* align-items: center; */
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0 10rem;
+}
+
+.hero-container {
+  padding: 0 50px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .hero-badge {
   margin-bottom: 10px;
-  /* background-color: antiquewhite; */
-  margin-right: 70%;
+  /* margin-right: 70%; */
 }
 
 .hero-badge-text {
-    color: var(--hero-button);
-    font-weight: 800;
-    font-size: 0.8rem;
-    font-family: var(--header-font);
-    background-color: var(--white);
-    padding: 10px 3px 10px 20px;
-    border-radius: 40px;
+  color: var(--hero-button);
+  font-weight: 800;
+  font-size: 0.8rem;
+  font-family: var(--header-font);
+  background-color: var(--white);
+  padding: 10px 3px 10px 20px;
+  border-radius: 40px;
 }
 
 .hero-badge-img {
@@ -44,9 +50,8 @@
 }
 
 .hero-paragraph {
-    font-size: 1.1rem;
-    font-family: "inter";
-    
+  font-size: 1.1rem;
+  font-family: "inter";
 }
 .hero-btn {
   margin-top: 25px;

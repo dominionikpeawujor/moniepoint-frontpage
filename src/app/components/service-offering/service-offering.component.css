@@ -1,0 +1,12 @@
+.service-offering-card {
+    display: flex;
+    gap: 1rem;
+    margin: 16px 0 10px 0;
+    padding: 100px 2rem ;
+    left: 50%;
+
+}
+
+.service-offering_header{
+    margin-top: 25px;
+}

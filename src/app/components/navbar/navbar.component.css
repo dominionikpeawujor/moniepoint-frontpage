@@ -4,7 +4,8 @@ nav {
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
-  margin: 2.5rem 0;
+  margin: 2.5rem auto;
+  max-width: 1000px;
 }
 
 ul {
